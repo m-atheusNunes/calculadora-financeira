@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +44,7 @@
         var porcentagem70 = perdaTotal - (perdaTotal * 0.7);
 
         div_exibir.innerHTML = `<br> Por minuto, <b>você perdeu R$${faturamentoPorMinuto.toFixed(2)}</b>`
-        div_exibir.innerHTML += `<br> Nesse downtime de ${downtime} minutos (${horas} horas), <b>você perdeu R$${perdaTotal.toFixed(2)}</b>`
+        div_exibir.innerHTML += `<br> Nesse downtime de ${downtime} minutos (${horas.toFixed(2)} horas), <b>você perdeu R$${perdaTotal.toFixed(2)}</b>`
         
         div_exibir.innerHTML += `<br> <br>Com o nosso produto, a sua perda poderia ser reduzida de 30% até 70% ou seja, <br> invés de perder R$${perdaTotal.toFixed(2)}, você reduziria minimamente esse valor a R$${porcentagem30.toFixed(2)}, podendo chegar a diminuir a até R$${porcentagem70.toFixed(2)}` 
     }
